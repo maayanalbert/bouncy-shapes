@@ -11,7 +11,7 @@ var lastParticleGrabbed = 0
 var margin = 20
 var webScale = 1
 var dotScale = 1/.8
-var xOffSet = 550
+var xOffSet = 200
 // var gridSize = 4
 
 var springConstant = 0.1;
@@ -22,7 +22,7 @@ var whichParticleIsGrabbed = -1;
 
 //-------------------------
 function setup() {
-    createCanvas(900, 300);
+    createCanvas(800, 300);
     createParticles(); 
 }
 
